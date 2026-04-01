@@ -452,11 +452,12 @@ a{
 }
 .phase1{
   border: solid 1px black;
-  max-width: 50%;
+  max-width: 100%;
   font-size: 50%;
-  
 }
-
+.page1{
+    position: fixed;
+}
 }
 
 
