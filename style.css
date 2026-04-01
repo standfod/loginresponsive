@@ -451,13 +451,12 @@ a{
     font-size: 12px;
 }
 .phase1{
-  border: none;
+  border: solid 1px black;
+  max-width: 50%;
+  font-size: 50%;
+  
 }
 
-.page1{
-    font-size: 50%;
-    height: 50%;
-}
 }
 
 
