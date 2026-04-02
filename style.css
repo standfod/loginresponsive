@@ -52,6 +52,7 @@ section{
 
     .text1{
         font-size: 290%;
+        
     }
 
     .text2{
@@ -59,7 +60,7 @@ section{
         bottom: 10%;
         font-size: 100%;
     }
-
+ 
      .phase2{
         display: flex;
         align-items: center;
@@ -79,15 +80,17 @@ section{
      }
     .email{
         position: relative;
-        top:7%;
+        top:9%;
         right: 35%;
         color: #014421;
+        font-size: 90%;
     }
     .pass{
         position: relative;
-        top: 7%;
+        top: 9%;
         right: 33%;
         color: #014421;
+        font-size: 90%;
     }
    
      .button1{
@@ -106,13 +109,15 @@ section{
         right: 35%;
         top: 2%;
         color: #013220;
+        font-size: 80%;
      }
 
      .forget{
         position: relative;
-        left: 26%;
+        left: 28%;
         bottom: 5%;
         color: #013220;
+        font-size: 80%;
      }
 }
 
