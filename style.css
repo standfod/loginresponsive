@@ -16,12 +16,95 @@ section{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: fit;
 }
 
 .phase2{
     width: 100%;
     height: 50vh;
 
+}
+
+@media (max-width:400px) {
+
+    section{
+    position: fixed;
+    max-width: 100%;
+    height: 100%;    
+    }
+
+    .phase1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 100%;
+    }
+
+    .text1{
+        font-size: 290%;
+    }
+
+    .text2{
+        position: relative;
+        bottom: 10%;
+        font-size: 100%;
+    }
+
+     .phase2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 3%;
+     }
+
+     .input1{
+        border: none;
+        border: solid 1px black;
+        width: 80%;
+        height: 11%;
+        border-radius: 5px;
+        margin-top: 5%;
+     }
+    .email{
+        position: relative;
+        top:7%;
+        right: 35%;
+        color: #014421;
+    }
+    .pass{
+        position: relative;
+        top: 7%;
+        right: 33%;
+        color: #014421;
+    }
+   
+     .button1{
+        margin-top: 10%;
+        border: none;
+        border: solid 1px black;
+        width: 80%;
+        border-radius: 5%;
+        height: 11%;
+        color: white;
+        background-color: #013220;
+     }
+
+     .sign{
+        position: relative;
+        right: 35%;
+        top: 2%;
+        color: #013220;
+     }
+
+     .forget{
+        position: relative;
+        left: 26%;
+        bottom: 5%;
+        color: #013220;
+     }
 }
 
 @media (max-width:320px) {
