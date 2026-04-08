@@ -11,6 +11,7 @@ section{
     height: 100vh;
     margin: 0%;
     padding: 0%;
+    height: 100dvh;
 
 }
 .phase1{
@@ -29,6 +30,1009 @@ section{
     width: 100%;
     height: 50vh;
 
+}
+
+
+@media (max-width:2000px) {
+    
+    .section{
+        display: flex;
+    }
+
+    .phase1{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text1{
+        font-size: 600%;
+        font-family: Poppins;
+        font-weight: bolder;
+        color: black;
+        position: relative;
+        left: 7%;
+    }
+
+    .text2{
+        font-size: 200%;
+        color: white;
+        position: relative;
+        left: 8%;
+        bottom: 8%;
+    }
+
+    .display1{
+        position: relative;
+        top: 27%;
+        left: 8%;
+        color: burlywood;
+    }
+
+    .phase2{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3%;
+    }
+
+    .input1{
+         border: none;
+         border: solid 1px black;
+         width: 50%;
+         height: 5%;
+         border-radius: 5px;
+    }
+
+    .email{
+        position:relative ;
+        right: 21%;
+        top: 1%;
+    }
+
+    .pass{
+        position: relative;
+        right: 21%;
+        top: 1%;
+    }
+
+    .login{
+        position: absolute;
+        font-weight: bolder;
+        font-family: Poppins;
+        font-size: 200%;
+        bottom: 85%;
+    }
+
+    .button1{
+        border: none;
+        border: solid 1px black;
+        width: 50%;
+        height: 6%;
+        border-radius: 5px;
+        background-color:  #013220;
+        color: white;
+        margin-top: 10%;
+    }
+
+    .sign{
+        position: relative;
+        right: 22%;
+        bottom: 1%;
+    }
+
+    .forget{
+        position: relative;
+        left: 19%;
+        bottom: 5%;
+    }
+
+    .footer{
+  
+        position: relative;
+        top: 18%;
+        right:11%;
+        font-size: 80%;
+    }
+
+}
+
+@media (max-width:1821px) {
+    
+
+    .section{
+        display: flex;
+    }
+
+    .phase1{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+     .text1{
+        font-size: 590%;
+        position: relative;
+        left: 6%;
+     }
+
+     .text2{
+        font-size: 200%;
+        position: relative;
+        left: 7%;
+        bottom: 7%;
+        color: white;
+     }
+
+     .display1{
+        position: relative;
+        top: 20%;
+        font-size: 130%;
+        left: 7%;
+        color: burlywood;
+     }
+
+     .phase2{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+     }
+
+     .input1{
+        border: none;
+        border: solid 1px black;
+        width: 50%;
+        height: 6%;
+        border-radius: 5px;
+     }
+
+     .email{
+        position: relative;
+        top: 2%;
+        right: 21%;
+        color: #013220;
+     }
+
+     .pass{
+        position: relative;
+        right: 21%;
+        top: 2%;
+        color: #013220;
+     }
+     .button1{
+        border: none;
+        border: solid 1px black;
+        width: 50%;
+        height: 7%;
+        border-radius: 5px;
+        background-color:  #013220;
+        color: white;
+     }
+
+     .sign{
+        position: relative;
+        right: 22%;
+        color: #013220;
+     }
+
+     .forget{
+        position: relative;
+        left: 18%;
+        bottom: 7%;
+        color: #013220;
+     }
+
+     .login{
+        font-family: Poppins;
+        font-size: 200%;
+     }
+
+     .footer{
+        position: relative;
+        top: 5%;
+        right: 10%;
+     }
+}
+
+@media (max-width:1621px) {
+
+    
+    .section{
+        display: flex;
+    }
+
+    .phase1{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text1{
+        font-size: 590%;
+        font-weight: bolder;
+        font-family: Poppins;
+        position: relative;
+        left: 5%;
+    }
+    .text2{
+        font-size: 200%;
+        font-family: Poppins;
+        font-weight: bolder;
+        position: relative;
+        left: 7%;
+        bottom: 10%;
+        color: white;
+    }
+
+    .display1{
+        font-size: 130%;
+        position: relative;
+        top: 21%;
+        left: 6%;
+        color: burlywood;
+    }
+
+    .phase2{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6%;
+
+    }
+
+    .input1{
+        border: none;
+        border: solid 1px black;
+        height: 5%;
+        width: 50%;
+        border-radius: 5px;
+
+    }
+
+    .email{
+        position: relative;
+        right: 22%;
+        top: 3%;
+        color: #013220;
+    }
+
+    .pass{
+        position: relative;
+        right: 20%;
+        top: 3%;
+        color: #013220;
+    }
+
+    .button1{
+        border: none;
+        border: solid 1px black;
+        width: 50%;
+        height: 7%;
+        border-radius: 5px;
+        background-color:  #013220;
+        color: white;
+    }
+
+    .sign{
+        position: relative;
+        right: 22%;
+        color: #013220;
+    }
+
+    .forget{
+        position: relative;
+        left: 18%;
+        bottom: 10%;
+        color: #013220;
+
+    }
+
+    .footer{
+        position: relative;
+        top: 12%;
+        font-size: 80%;
+        right: 10%;
+    }
+
+    .login{
+        position: absolutes;
+        font-size: 200%;
+    }
+}
+
+
+@media (max-width:1500px) {
+    
+    .section{
+        display: flex;
+    }
+
+    .phase1{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+    }
+
+    .text1{
+        font-weight: bolder;
+        font-family: Poppins;
+        font-size: 550%;
+        color: black;
+        position: relative;
+        left: 5%;
+    }
+
+    .text2{
+        font-weight: bolder;
+        font-family: Poppins;
+        font-size: 130%;
+        position: relative;
+        left: 7%;
+        bottom: 10%;
+        color: white;
+    }
+    .display1{
+        position: relative;
+        top: 23%;
+        left: 5%;
+        color: burlywood;
+    }
+
+    .phase2{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .login{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: bolder;
+        font-size: 240%;
+        bottom: 83%;
+    }
+
+   .input1{
+    border: none;
+    border: solid 1px black;
+    width: 70%;
+    height: 7%;
+    border-radius: 5px;
+   }
+   .email{
+    position: relative;
+    right: 30%;
+    top: 2%;
+    color: #013220;
+   }
+
+   .pass{
+    position: relative;
+    right: 29%;
+    top: 2%;
+    color: #013220;
+    
+   }
+
+   .button1{
+    border: none;
+    border: solid 1px black;
+    width: 70%;
+    height: 7%;
+    border-radius: 5px;
+    background-color:  #013220;
+    color: white;
+   }
+   .sign{
+    position: relative;
+    right: 31%;
+    color: #013220;
+   }
+
+   .forget{
+    position: relative;
+    left: 28%;
+    bottom: 9%;
+    font-size: 80%;
+    color: #013220;
+   }
+
+   .footer{
+    position: relative;
+    top: 13%;
+    font-size: 80%;
+    right: 18%;
+   }
+}
+@media (max-width:1320px) {
+    
+    .section{
+        display: flex;
+    }
+
+    .phase1{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text1{
+        font-family: Poppins;
+        font-weight: bolder;
+        font-size: 550%;
+        color: white;
+        position: relative;
+        left: 7%;
+    }
+
+    .text2{
+        font-family: Poppins;
+        font-weight: bolder;
+        font-size: 140%;
+        color: white;
+        position: relative;
+        left: 7%;
+        bottom: 8%;
+    }
+
+    .display1{
+        position: relative;
+        top: 23%;
+        left: 7%;
+        font-size: 130%;
+        color: burlywood;
+    }
+
+    .phase2{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .input1{
+        border: none;
+        border: solid 1px black;
+        width: 70%;
+        height: 7%;
+        border-radius: 5px;
+    }
+    .email{
+        position: relative;
+        right: 31%;
+        top: 2%; 
+    }
+
+    .pass{
+        position: relative;
+        right: 30%;
+        top: 2%;
+    }
+
+    .button1{
+        border: none;
+        border: solid 1px black;
+        width: 70%;
+        height: 7%;
+        border-radius: 5px;
+        background-color:  #013220;
+        color: white;
+    }
+
+    .sign{
+        position: relative;
+        right: 30%;
+    }
+
+    .forget{
+        position: relative;
+        left: 26%;
+        bottom: 9%;
+    }
+
+    .footer{
+        position: relative;
+        top: 14%;
+        right: 17%;
+        font-size: 80%;
+    }
+
+    .login{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: bolder;
+        font-size: 200%;
+        bottom: 85%;
+    }
+}
+
+@media (max-width:1000px) {
+    
+    .section{
+        display:flex;
+    }
+
+    .phase1{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text1{
+         font-family: Poppins;
+         font-weight: bolder;
+         font-size: 500%;
+         color: white;
+    }
+
+    .text2{
+        position: relative;
+        bottom: 9%;
+        right: 11%;
+        font-family: Poppins;
+        font-weight: bolder;
+        font-size: 130%;
+        color: black;
+    }
+
+    .display1{
+        position: relative;
+        top: 27%;
+        right: 13%;
+        position: relative;
+        font-family: Poppins;
+        font-weight: bolder;
+        color: burlywood;
+    }
+
+    .phase2{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .input1{
+        border: none;
+        border: solid 1px black;
+        width: 70%;
+        height: 6%;
+        border-radius: 5px;
+    }
+
+    .email{
+         position: relative;
+         right: 29%;
+         top: 3%;
+         color: #013220;
+    }
+    .pass{
+        position: relative;
+        right: 27%;
+        top: 3%;
+        color: #013220;
+    }
+
+    .button1{
+        border: solid 1px black;
+        width: 70%;
+        height: 6%;
+        border-radius: 5px;
+        background-color:  #013220;
+        color: white;
+    }
+
+      .sign{
+        position: relative;
+        right: 30%;
+        color: #013220;
+      }
+
+      .forget{
+
+        position: relative;
+        left: 25%;
+        bottom: 9%;
+        font-size: 80%;
+        color: #013220;
+      }
+
+    .footer{
+        position: relative;
+        top: 15%;
+        right: 13%;
+        font-size: 70%;
+    }
+
+    .login{
+        position: absolute;
+        font-size: 200%;
+        bottom: 82%;
+    }
+
+}
+
+@media (max-width:900px) {
+
+    .section{
+        display: flex;
+
+    }
+    .phase1{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text1{
+        font-family: Poppins;
+        font-weight: bolder;
+        font-weight: bolder;
+        font-size: 400%;
+        color: white;
+    }
+    .text2{
+        position: relative;
+        bottom: 5%;
+        right: 6%;
+        font-family: Poppins;
+        font-weight: bolder;
+        font-size: 130%;
+    }
+
+    .display1{
+        position: relative;
+        top: 27%;
+        right: 9%;
+        color: burlywood ;
+    }
+    .phase2{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6%;
+    }
+
+    .input1{
+      border: solid 1px black;
+      width: 70%;
+      height: 6%;
+      border-radius: 5px;
+    }
+
+    .email{
+        position: relative;
+        top: 3%;
+        right: 29%;
+    }
+
+    .pass{
+        position: relative;
+        top: 3%;
+        right: 27%;
+    }
+
+    .button1{
+        border:none;
+        border: solid 1px black;
+        width: 70%;
+        height: 6%;
+        border-radius: 5px;
+        background-color:  #013220;
+        color: white;
+    }
+
+    .sign{
+        position: relative;
+        right: 30%;
+        font-size: 90%;
+        bottom: 2%;
+    }
+
+    .forget{
+        position: relative;
+        left: 27%;
+        font-size: 70%;
+        bottom: 9%;
+    }
+    .footer{
+        position: relative;
+        top: 13%;
+        right: 8%;
+        font-size: 80%;
+        font-family: Poppins;
+        font-weight: bolder;
+        color:  #013220;        
+    }
+
+    .login{
+        position: absolute;
+        bottom: 85%;
+        font-family: Poppins;
+        font-weight: bolder;
+        font-size: 150%;
+        color: #013220;
+    }
+
+}
+
+@media (max-width:800px) {
+    .section{
+        display: flex;
+    }
+    .display1{
+        display: none;
+    }
+     .login{
+        display: none;
+     }
+    .footer{
+        display: none;
+    }
+
+    .phase1{
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        align-items: center;
+    }
+     .text1{
+        font-size: 370%;
+        font-weight: bolder;
+        font-family: Poppins;
+     }
+
+     .text2{
+        position: relative;
+        bottom: 10%;
+        font-family: Poppins;
+        font-size: 150%;
+        color: black;
+     }
+   
+    .phase2{
+        height: 100dvh;
+        display: flex;flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4%;
+    }
+    .input1{
+      border: solid 1px black;
+      width: 70%;
+      height: 5%;
+      border-radius: 5px;
+    }
+     .button1{
+        border: solid 1px black;
+        width: 70%;
+        height: 7%;
+        border-radius: 5px;
+        background-color:#013220;
+        color: white;
+     }
+
+     .email{
+        position: relative;
+        right: 30%;
+        top:2%;
+     }
+     .pass{
+        position: relative;
+        right: 26%;
+        top: 2%;
+     }
+
+     .sign{
+        position: relative;
+        right: 30%;
+        font-size: 80%;
+        top: 1%;
+     }
+
+     .forget{
+        position: relative;
+        left: 25%;
+        bottom: 5%;
+        font-size: 70%;
+     }
+    
+}
+
+@media (max-width:600px) {
+    
+      .section{
+        display: flex;
+        flex-direction: column;
+      }    
+     .phase1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 50dvh;
+        background-color: red;
+     }
+
+     .text1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 300%;
+        color: white;
+        padding-left: 30px;
+     }
+
+     .text2{
+        position: relative;
+        top: 5%;
+        font-size: 100%;
+        color: black;
+        padding-left: 2px;
+     }
+
+     .phase2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        
+     }
+
+     .input1{
+        border: none;
+        border: solid 1px black;
+        width: 70%;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 5px;
+     }
+     .email{
+        position: relative;
+        right: 30%;
+        top: 5%;
+        color: #013220;
+     }
+
+     .pass{
+        position: relative;
+        right: 28%;
+        top: 5%;
+        color: #013220;
+     }
+     .button1{
+        border: none;
+        border: solid 1px black;
+        width: 70%;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 30px;
+        background-color: #013220;
+        color: white;
+     }
+
+     .sign{
+        position: relative;
+        right: 30%;
+        top: 2%;
+        color: #013220;
+     }
+
+     .forget{
+        position: relative;
+        left: 25%;
+        color: #013220;
+     }
+}
+
+
+@media (max-width:450px) {
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .phase1{
+        height: 50dvh;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10%;
+    }
+
+    .text1{
+        font-size: 370%;
+        margin: 0%;
+        padding: 0%;
+        color: black;
+    }
+
+    .text2{
+        position: relative;
+        bottom: 2%;
+        right: 7%;
+        font-size: 100%;
+        color:white;
+    }
+
+    .phase2{
+        height: 20dvh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 19%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input1{
+        border: none;
+        border: solid 1px black;
+        padding: 10px;
+        width: 300px;
+        margin-top: 5%;
+    }   
+
+    .email{
+        position: relative;
+        top: 15%;
+        right: 30%;
+    }
+
+    .pass{
+        position: relative;
+        top: 15%;
+        right: 28%;
+    }
+
+       
+    .button1{
+        border: none;
+        border: solid 1px black;
+        width: 320px;
+        padding: 3%;
+        margin-top: 5%;
+        border-radius: 5px;
+        background-color: #013220;
+        color: white;
+        }
+        .sign{
+            position: relative;
+            top: 12%;
+            right: 31%;
+            font-size: 15px;
+        }
+        .forget{
+            position: relative;
+            top: 3%;
+            left: 26%;
+            font-size: 11px;
+        }
 }
 
 @media (max-width:400px) {
@@ -51,14 +1055,21 @@ section{
     }
 
     .text1{
-        font-size: 290%;
-        
+        position: relative;
+        font-size: 300%;
+        padding: 0px;
+        color: white;
+        right: 18%;
     }
 
     .text2{
         position: relative;
-        bottom: 10%;
-        font-size: 100%;
+        top: 2%;
+        right: 20%;
+        font-size: 110%;
+        padding: 0px;
+        margin: 0px;
+        color: white;
     }
  
      .phase2{
@@ -66,7 +1077,7 @@ section{
         align-items: center;
         flex-direction: column;
         width: 100%;
-        gap: 3%;
+        gap: 1%;
         height: 50dvh;
      }
 
@@ -75,8 +1086,7 @@ section{
         border: solid 1px black;
         width: 80%;
         height: 11%;
-        border-radius: 5px;
-        margin-top: 5%;
+        padding: 0px;
      }
     .email{
         position: relative;
@@ -107,7 +1117,7 @@ section{
      .sign{
         position: relative;
         right: 35%;
-        top: 2%;
+        top: 4%;
         color: #013220;
         font-size: 80%;
      }
@@ -115,9 +1125,11 @@ section{
      .forget{
         position: relative;
         left: 28%;
-        bottom: 5%;
+        top: 1px;
+        margin-top: 1px;
         color: #013220;
         font-size: 80%;
+
      }
 }
 
@@ -134,12 +1146,12 @@ section{
         height: 50dvh;
     }
     .text1{
-        font-size: 300%;
-        margin: 0px;
-        padding: 0px;
+        font-size: 250%;
     }
     .text2{
         font-size: 100%;
+        margin: 0px;
+        color: white;
     }
 
     .phase2{
@@ -148,7 +1160,6 @@ section{
         align-items: center;
         margin-top: 15%;
         gap: 10px;
-        height: 50dvh;
     }
     .input1{
         border: none;
@@ -178,7 +1189,7 @@ section{
 
     .pass{
         position: relative;
-        bottom: 3%;
+        bottom: 11%;
         right: 30%;
         color: #064E3B;
     }
@@ -191,11 +1202,12 @@ section{
     }
 
     .forget{
-        position: relative;
-        left: 26%;
+        position: absolute;
+        left: 63%;
         font-size: 75%;
-        bottom: 4%;
+         top: 94%;
         color: #064E3B;
+        margin: 0px;
     }
      .section{
         height: 100dvh;
