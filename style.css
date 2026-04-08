@@ -338,7 +338,7 @@ section{
 
     .footer{
         position: relative;
-        top: 12%;
+        top: 8%;
         font-size: 80%;
         right: 10%;
     }
@@ -452,7 +452,7 @@ section{
 
    .footer{
     position: relative;
-    top: 13%;
+    top: 9%;
     font-size: 80%;
     right: 18%;
    }
@@ -548,7 +548,7 @@ section{
 
     .footer{
         position: relative;
-        top: 14%;
+        top: 9%;
         right: 17%;
         font-size: 80%;
     }
@@ -659,7 +659,7 @@ section{
 
     .footer{
         position: relative;
-        top: 15%;
+        top: 9%;
         right: 13%;
         font-size: 70%;
     }
@@ -761,12 +761,12 @@ section{
     }
     .footer{
         position: relative;
-        top: 13%;
+        top: 7%;
         right: 8%;
         font-size: 80%;
         font-family: Poppins;
         font-weight: bolder;
-        color:  #013220;        
+        color:  #013220;     
     }
 
     .login{
